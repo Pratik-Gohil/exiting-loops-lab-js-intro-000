@@ -6,6 +6,6 @@ function breakOut(array, changeValue, stopValue) {
       break
     }
     i++
-    return array
   }
+  return array
 }

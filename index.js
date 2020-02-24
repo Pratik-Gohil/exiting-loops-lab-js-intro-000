@@ -1,11 +1,9 @@
 function breakOut(array, changeValue, stopValue) {
-  let i = 0
-  while (i < array.length) {
-    array[i] = changeValue
+  for (let i = 0; i < array.length; i++) {
     if (array[i] == stopValue) {
       break
     }
-    i++
+    array[i] = changeValue
+    return array
   }
-  return array
 }

@@ -1,8 +1,8 @@
 function breakOut(array, changeValue, stopValue) {
-  array.forEach(elem => {
+  for (let elem in array) {
     if (elem == stopValue) {
-      return
+      break
     }
     elem = changeValue
-  })
+  }
 }
